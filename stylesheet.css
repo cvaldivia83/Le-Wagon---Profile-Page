@@ -1,0 +1,109 @@
+body {
+  background-color: #e9ecef;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1rem;
+ }
+
+ .container {
+  width: 90%;
+  margin: 0 auto;
+ }
+
+ h1, h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 0.3rem;
+  margin: 1rem;
+  padding: 2rem;
+  text-align: center;
+ }
+
+ p {
+  margin: 0.7rem;
+ }
+
+ .card {
+  background-color: #f8f9fa;
+  border-radius: 3px;
+  width: 80%;
+  margin: 2rem auto;
+  padding: 1rem;
+ }
+
+ .profile-picture {
+  display: block;
+  height: auto;
+  width: 12%;
+  margin: 2rem auto;
+
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Roboto';
+}
+
+ul {
+  display: inline-block;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 0px 0.625rem;
+}
+
+.btn-purple {
+  display: block;
+  width: 10rem;
+  margin: 1rem auto;
+  background-color: #480ca8;
+  color: #f8f9fa ;
+  padding: 1rem;
+  border-radius: 3px;
+  font-weight: 700;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.btn-purple:hover {
+  background-color: #f8f9fa;
+  color: #480ca8;
+  transition: width 2s;
+  border-style: solid;
+  border-color: #480ca8;
+  border-width: 3px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
